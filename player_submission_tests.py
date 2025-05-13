@@ -76,55 +76,55 @@ def main():
         winner, move_history, termination = game.play_isolation(time_limit=1200, print_moves=True)
         print("\n{} has won. Reason: {}".format(winner, termination))
         # Uncomment to see game
+        print (game_as_text(winner, move_history, termination, output_b))
+        game = Board(r, h2, 7, 7)
+        output_b = game.copy()
+        winner, move_history, termination = game.play_isolation(time_limit=1200, print_moves=True)
+        print("\n{} has won. Reason: {}".format(winner, termination))
+        # Uncomment to see game
         # print (game_as_text(winner, move_history, termination, output_b))
-        # game = Board(r, h2, 7, 7)
-        # output_b = game.copy()
-        # winner, move_history, termination = game.play_isolation(time_limit=1200, print_moves=True)
-        # print("\n{} has won. Reason: {}".format(winner, termination))
-        # # Uncomment to see game
-        # # print (game_as_text(winner, move_history, termination, output_b))
-        # game = Board(r, h3, 7, 7)
-        # output_b = game.copy()
-        # winner, move_history, termination = game.play_isolation(time_limit=1200, print_moves=True)
-        # print("\n{} has won. Reason: {}".format(winner, termination))
-        # # Uncomment to see game
-        # # print (game_as_text(winner, move_history, termination, output_b))
-        # game = Board(r, h4, 7, 7)
-        # output_b = game.copy()
-        # winner, move_history, termination = game.play_isolation(time_limit=1200, print_moves=True)
-        # print("\n{} has won. Reason: {}".format(winner, termination))
-        # # Uncomment to see game
-        # # print (game_as_text(winner, move_history, termination, output_b))
-        # game = Board(r, h5, 7, 7)
-        # output_b = game.copy()
-        # winner, move_history, termination = game.play_isolation(time_limit=1200, print_moves=True)
-        # print("\n{} has won. Reason: {}".format(winner, termination))
-        # # Uncomment to see game
-        # # print (game_as_text(winner, move_history, termination, output_b))
-        # game = Board(r, h6, 7, 7)
-        # output_b = game.copy()
-        # winner, move_history, termination = game.play_isolation(time_limit=1200, print_moves=True)
-        # print("\n{} has won. Reason: {}".format(winner, termination))
-        # # Uncomment to see game
-        # # print (game_as_text(winner, move_history, termination, output_b))
-        # game = Board(r, h7, 7, 7)
-        # output_b = game.copy()
-        # winner, move_history, termination = game.play_isolation(time_limit=1200, print_moves=True)
-        # print("\n{} has won. Reason: {}".format(winner, termination))
-        # # Uncomment to see game
-        # # print (game_as_text(winner, move_history, termination, output_b))
-        # game = Board(r, h8, 7, 7)
-        # output_b = game.copy()
-        # winner, move_history, termination = game.play_isolation(time_limit=1200, print_moves=True)
-        # print("\n{} has won. Reason: {}".format(winner, termination))
-        # # Uncomment to see game
-        # # print (game_as_text(winner, move_history, termination, output_b))
-        # game = Board(r, h9, 7, 7)
-        # output_b = game.copy()
-        # winner, move_history, termination = game.play_isolation(time_limit=1200, print_moves=True)
-        # print("\n{} has won. Reason: {}".format(winner, termination))
-        # # Uncomment to see game
-        # # print (game_as_text(winner, move_history, termination, output_b))
+        game = Board(r, h3, 7, 7)
+        output_b = game.copy()
+        winner, move_history, termination = game.play_isolation(time_limit=1200, print_moves=True)
+        print("\n{} has won. Reason: {}".format(winner, termination))
+        # Uncomment to see game
+        # print (game_as_text(winner, move_history, termination, output_b))
+        game = Board(r, h4, 7, 7)
+        output_b = game.copy()
+        winner, move_history, termination = game.play_isolation(time_limit=1200, print_moves=True)
+        print("\n{} has won. Reason: {}".format(winner, termination))
+        # Uncomment to see game
+        # print (game_as_text(winner, move_history, termination, output_b))
+        game = Board(r, h5, 7, 7)
+        output_b = game.copy()
+        winner, move_history, termination = game.play_isolation(time_limit=1200, print_moves=True)
+        print("\n{} has won. Reason: {}".format(winner, termination))
+        # Uncomment to see game
+        # print (game_as_text(winner, move_history, termination, output_b))
+        game = Board(r, h6, 7, 7)
+        output_b = game.copy()
+        winner, move_history, termination = game.play_isolation(time_limit=1200, print_moves=True)
+        print("\n{} has won. Reason: {}".format(winner, termination))
+        # Uncomment to see game
+        # print (game_as_text(winner, move_history, termination, output_b))
+        game = Board(r, h7, 7, 7)
+        output_b = game.copy()
+        winner, move_history, termination = game.play_isolation(time_limit=1200, print_moves=True)
+        print("\n{} has won. Reason: {}".format(winner, termination))
+        # Uncomment to see game
+        # print (game_as_text(winner, move_history, termination, output_b))
+        game = Board(r, h8, 7, 7)
+        output_b = game.copy()
+        winner, move_history, termination = game.play_isolation(time_limit=1200, print_moves=True)
+        print("\n{} has won. Reason: {}".format(winner, termination))
+        # Uncomment to see game
+        # print (game_as_text(winner, move_history, termination, output_b))
+        game = Board(r, h9, 7, 7)
+        output_b = game.copy()
+        winner, move_history, termination = game.play_isolation(time_limit=1200, print_moves=True)
+        print("\n{} has won. Reason: {}".format(winner, termination))
+        # Uncomment to see game
+        # print (game_as_text(winner, move_history, termination, output_b))
     except NotImplementedError:
         print('CustomPlayer Test: Not Implemented')
     except:
